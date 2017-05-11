@@ -79,6 +79,10 @@ class Movie():
 - Open python GUI (IDLE) > File > Open... > Select `entertainment_center.py` from the downloaded Movie Trailer project.
 - Click Run > **Run Module**
 
+Resources:
+----
+Udacity instructor notes.
+
 License
 ----
 
