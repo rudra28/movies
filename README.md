@@ -15,18 +15,18 @@ A constructor for the movie class is written to create instances of movie in `me
 - Python Class to store favorite movies, including movie title, poster URL and a YouTube link to the movie trailer.
 - Creates multiple instances of that Python Class to represent favorite movies; grouping all the instances together in a list.
 ```
-#storing movie details: movie title, storyline, poster URL and movie trailer URL
+# storing movie details: movie title, storyline, poster URL and movie trailer URL
 avatar = media.Movie("Avatar","A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
+                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg", # NOQA
                      "http://www.youtube.com/watch?v=-9ceBgWV8io")
 ```
 
 ```
-#grouping all instances together in a list
-movies = [avatar,bahubali,sing,idiots,notebook,despicable]
+# grouping all instances together in a list
+movies = [avatar, bahubali, sing, idiots, notebook, despicable]
 ```
 ```
-#calling function open_movies_page to open in a web browser
+# calling function open_movies_page to open in a web browser
 fav_movies.open_movies_page(movies)
 ```
 
@@ -65,7 +65,7 @@ def open_movies_page(movies):
 - Movie class is created in this file to encapsulate the properties of a movie in a movie object.
 ```
 class Movie():
-#function that stores all the information related to movie
+# function that stores all the information related to movie
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
